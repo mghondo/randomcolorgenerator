@@ -5,9 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: #cfe3c4; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.color-item:hover {
+  background-color: #007bff; /* Use your primary color here */
+  color: white; /* Change text color for better visibility */
+}
+
+
