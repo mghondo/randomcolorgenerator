@@ -87,7 +87,9 @@ class ColorSchemeGenerator extends Component {
               {showColorList ? 'Hide Color List' : 'Show Color List'}
             </button>
             {showColorList && ( // Render color list only if showColorList is true
-              <ul className="list-group">
+              <>
+              <p>Click on any color to copy the hex.</p>
+              <ul className="list-group center-ul" style={{width: '25%'}}>
                 {colors.map((color, index) => (
                   <li
                     className="list-group-item color-item"
@@ -108,6 +110,7 @@ class ColorSchemeGenerator extends Component {
                   </button>
                 </li>
               </ul>
+              </>
             )}
           </div>
           <div className="row">

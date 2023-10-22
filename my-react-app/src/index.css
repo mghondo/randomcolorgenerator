@@ -18,4 +18,9 @@ code {
   color: white; /* Change text color for better visibility */
 }
 
+.center-ul {
+  margin: 0 auto; /* Set left and right margins to auto for centering */
+  text-align: center; /* Reset text alignment if needed */
+}
+
 
