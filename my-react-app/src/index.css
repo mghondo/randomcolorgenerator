@@ -23,4 +23,29 @@ code {
   text-align: center; /* Reset text alignment if needed */
 }
 
+@keyframes fadeBackground {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+/* App.css */
+
+.jumbotron {
+  height: 350px;
+  background-image: url(./bg-image-20.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: fadeBackground 10s infinite;
+}
+
+
 

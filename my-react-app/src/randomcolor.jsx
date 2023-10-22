@@ -62,19 +62,22 @@ class ColorSchemeGenerator extends Component {
   render() {
     const { colors, lockedColors, showColorList } = this.state;
     const jumbotronStyle = {
-      height: '350px',
-      backgroundImage: `url(./bg-image-20.jpg)`, // Set the background image
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      marginBottom: '30px',
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      justifyContent: 'center',
+ // Apply the animation
     };
+    // const jumbotronStyle = {
+    //   height: '350px',
+    //   backgroundImage: `url(./bg-image-20.jpg)`, // Set the background image
+    //   backgroundSize: 'cover',
+    //   backgroundPosition: 'center',
+    //   marginBottom: '30px',
+    //   display: 'flex',
+    //   flexDirection: 'column',
+    //   alignItems: 'center',
+    //   justifyContent: 'center',
+    // };
     return (
       <>
-        <div className="jumbotron text-center" style={jumbotronStyle}>
+        <div className="jumbotron text-center">
           <h1 style={{ color: 'white' }}>Random Color Scheme Generator</h1>
         </div>
         <div className="container">
